@@ -1,7 +1,7 @@
 
 function navbar() {
     return `<header class="header">
-        <a style="margin-left: 30px;cursor:pointer;" href="../HTML/home.html" class="logo"><img src="../images/logo3.png" alt=""></a>
+        <a style="margin-left: 30px;cursor:pointer;" href="../HTML/index.html" class="logo"><img src="../images/logo1.png" alt=""></a>
       <nav>
 
         <ul class="menu-items">
@@ -347,7 +347,7 @@ function navbar() {
           </li>
 
           <li>
-            <a href="../HTML/Home&Living.html" class="menu-item-4">HOME & LIVING</a>
+            <a href="../HTML/Home&living.html" class="menu-item-4">HOME & LIVING</a>
             <div class="mega-menu">
               <div class="content4">
                 <div class="col">

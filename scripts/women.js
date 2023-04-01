@@ -1,4 +1,4 @@
-import { navbar } from "../script/navbar.js";
+import { navbar } from "../scripts/navbar.js";
 
 let header = document.getElementById("Home-headerEl");
 header.innerHTML = navbar();
@@ -15,9 +15,3 @@ setInterval(function () {
 const cartCountInfo = document.getElementById("cart-count-info");
 let count = JSON.parse(localStorage.getItem("cart"));
 cartCountInfo.textContent = count.length;
-
-
-
-  // <link rel="stylesheet" href="../style/home.css">
-  //   <link rel="stylesheet" href="../HTML/index.html">
-  //   <link rel="stylesheet" href="../style/navbar.css"></link>
