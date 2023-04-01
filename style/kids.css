@@ -1,0 +1,192 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 70px;
+  }
+  
+  .slide {
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slide input {
+    display: none;
+  }
+  
+  .slideshow {
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .nav-manual {
+    position: absolute;
+    width: 100%;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn {
+    padding: 3.9px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .manual-btn:hover {
+    background: gray;
+  }
+  
+  #radio1:checked ~ .first {
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first {
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first {
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first {
+    margin-left: -60%;
+  }
+  #radio5:checked ~ .first {
+    margin-left: -80%;
+  }
+ 
+  /*css for automatic navigation*/
+  
+  .nav-auto {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 475px;
+  }
+  
+  .nav-auto div {
+    border: 2px solid rgba(211, 211, 211, 0.651);
+    padding: 1.9px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .nav-auto div:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  #radio1:checked ~ .nav-auto .auto-btn1 {
+    background: gray;
+  }
+  
+  #radio2:checked ~ .nav-auto .auto-btn2 {
+    background: gray;
+  }
+  
+  #radio3:checked ~ .nav-auto .auto-btn3 {
+    background: gray;
+  }
+  
+  #radio4:checked ~ .nav-auto .auto-btn4 {
+    background: gray;
+  }
+  #radio5:checked ~ .nav-auto .auto-btn5 {
+    background: gray;
+  }
+
+
+  /* --------------------------Mens Product image--------------------------- */
+.text-banner{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 2vw;
+    margin: 50px 0 50px 80px;
+}
+.img-container1 {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    column-gap: 25px;
+    width: 100%;
+    margin: auto;
+}
+.img-container2{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    width: 100%;
+    margin: auto;
+}
+
+.img-container3{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    margin: auto;
+}
+.img-container4,
+.img-container8{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+    margin: auto;
+}
+.img-container5,
+.img-container6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.img-container7{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 100%;
+    margin: auto;
+}
+
+.img-container1 img,
+.img-container2 img,
+.img-container3 img,
+.img-container4 img,
+.img-container5 img,
+.img-container6 img,
+.img-container7 img,
+.img-container8 img,
+.img-container9 img,
+.img-container10 img,
+.img-container11 img,
+.img-container12 img,
+.img-container13 img,
+.img-container14 img
+{
+    width: 100%;
+}
+
+
