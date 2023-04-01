@@ -2,7 +2,7 @@ function footer(){
     return `<div style="position:relative">
     <div id="web-footerMount">
         <div style="position:relative;z-index:5;padding:30px 0px 40px 0px;background:#FAFBFC;">
-            <footer class="desktop-footerContainer">
+            <footer class="footerContainer">
                 <div>
                     
                     <div class="desktop-genericInfo">
