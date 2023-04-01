@@ -179,3 +179,108 @@ body{
 }
 
 
+/* ---------------for medium screen---------- */
+@media all and (min-width: 551px) and (max-width: 850px){
+  .header{
+    justify-content: unset;
+    padding: 0 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    justify-content: space-evenly;
+}
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+   
+  .logo img{
+    width: 100%;
+    margin: unset;
+}
+nav .menu-items{
+  display: none;
+}
+.search-div{
+  width: 45%;
+  justify-content: flex-start;
+}
+.search-div input{
+  padding-left: 2rem; 
+}
+.search-div i{
+  left : 2rem;
+}
+.nav-last{
+  width: 28%;
+  font-size: 1rem;
+}
+#cart-count-info {
+  display: none;
+}
+.img-container1{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container2{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container3{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container4{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container5{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container6{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container7{
+  grid-template-columns: repeat(3,1fr);
+}
+.img-container8{
+  grid-template-columns: repeat(3,1fr);
+}
+
+}
+
+@media all and (min-width: 100px) and (max-width: 550px){
+  .header{
+    justify-content: unset;
+    padding: 0 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    justify-content: space-evenly;
+}
+nav .menu-items{
+  display: none;
+}
+#cart-count-info {
+  display: none;
+}
+.img-container1{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container2{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container3{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container4{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container5{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container6{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container7{
+  grid-template-columns: repeat(2,1fr);
+}
+.img-container8{
+  grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+
