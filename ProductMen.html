@@ -1,12 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./products/men.css" rel="stylesheet" />
 
-function navbar() {
-    return `<header class="header">
-        <a style="margin-left: 30px;cursor:pointer;" href="../HTML/index.html" class="logo"><img src="../images/logo1.png" alt=""></a>
+</head>
+<body>
+    <!----------------------------------------Navbar Start ---------------------------------------------- -->
+
+    <header class="header">
+        <!-- <a style="margin-left: 30px;cursor:pointer;" href="../HTML/home.html" class="logo"><img src="../images/logo.png" alt=""></a> -->
       <nav>
 
         <ul class="menu-items">
           <li>
-            <a href="../HTML/mens.html" class="menu-item-1">MEN</a>
+            <a href="../HTML/product.html" class="menu-item-1">MEN</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
@@ -117,9 +128,8 @@ function navbar() {
             </div>
           </li>
 
-
           <li>
-            <a href="../HTML/women.html" class="menu-item-2">WOMEN</a>
+            <a href="../HTML/product.html" class="menu-item-2">WOMEN</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
@@ -233,7 +243,7 @@ function navbar() {
           </li>
 
           <li>
-            <a href="../HTML/kids.html" class="menu-item-3">KIDS</a>
+            <a href="../HTML/product.html" class="menu-item-3">KIDS</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
@@ -347,7 +357,7 @@ function navbar() {
           </li>
 
           <li>
-            <a href="../HTML/Home&living.html" class="menu-item-4">HOME & LIVING</a>
+            <a href="../HTML/Home&Living.html" class="menu-item-4">HOME & LIVING</a>
             <div class="mega-menu">
               <div class="content4">
                 <div class="col">
@@ -623,7 +633,7 @@ function navbar() {
           <div class="dropdown-content">
             <h3>Welcome</h3>
             <p>To access account and mange orders</p>
-            <button class="btn-redirect"> <a href="../HTML/LoginFirstPage.html" class="login-btn">LOGIN / SIGNUP</a> </button>
+            <button class="btn-redirect"> <a href="../HTML/Registration.html" class="login-btn">LOGIN / SIGNUP</a> </button>
             
             <hr class="hr1">
             <a href="../HTML/cart.html">Orders</a>
@@ -654,7 +664,49 @@ function navbar() {
         <span id = "cart-count-info">0</span>
       </div>
       </div>
-      </header>`;
-    }
-    
-    export { navbar };
+      </header>
+
+      <div class="navproduct-s">
+        <a href="#">Home /</a>
+        <a href="./ProductMen.html">Men Clothing</a>
+      </div>
+      <br>
+      <div class="filter-s">
+        <h4>FILTERS</h4>
+        <select id="sortby">
+            <option value="">Sort By Price</option>
+            <option value="lowtohigh">Price:Low to High</option>
+            <option value="hightolow">Price:High to Low</option>
+        </select>
+      </div>
+      <div class="body-s">
+        <div class="filterSection">
+            <div id="brand">
+                <h5>BRAND</h5>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="W"> W<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Aunok"> Aunok<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Rangriti"> Rangriti<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Ethnic"> Ethnic<br>
+            </div>
+            <div id="pricerange">
+                <h5>PRICE</h5>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value=999 >Less than Rs. 1000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="2000">Less than Rs. 2000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="3000">Less than Rs. 3000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="4000">Less than Rs. 4000<br>
+            </div>
+              
+        </div>
+        <div id="displaySection"></div>
+      </div>
+</body>
+<script src="./scripts/men.js"></script>
+</html>

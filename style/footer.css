@@ -1,0 +1,299 @@
+
+
+.footerContainer {
+  max-width: 1080 px;
+  margin: auto;
+  min-width: 980 px;
+}
+
+.desktop-androidDownLink,
+.desktop-iOSDownLink {
+  margin-right: 10 px !important;
+  height: 50px;
+}
+
+.desktop-genericInfo {
+  overflow: hidden;
+  margin-bottom: 24 px;
+}
+
+.desktop-shopLinks {
+  float: left;
+  width: 155 px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 20 px;
+}
+
+.desktop-shopLinks > p {
+  font-weight: 700;
+}
+
+.desktop-gInfoTitle,
+.desktop-or {
+  font-size: 12px;
+}
+
+.desktop-shopLinks > a {
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5 px;
+  cursor: pointer;
+  line-height: normal;
+}
+
+.desktop-shopLinks > a:nth-child(2) {
+  padding-top: 14 px;
+}
+
+a {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #282c3f;
+}
+
+.desktop-shopLinks > p:nth-child(9) {
+  margin-top: 19 px;
+}
+
+.desktop-shopLinks > p {
+  font-weight: 700;
+}
+
+.desktop-gInfoTitle,
+.desktop-or {
+  font-size: 12px;
+}
+
+.desktop-customerPolicies {
+  width: 15%;
+  float: left;
+}
+
+.desktop-customerPolicies > p {
+  font-weight: 700;
+}
+
+.desktop-customerPolicies > a,
+.desktop-shopLinks > a {
+  color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5 px;
+  cursor: pointer;
+  line-height: normal;
+}
+
+.desktop-gInfoTitle,
+.desktop-or {
+  font-size: 12px;
+}
+
+.desktop-appExperience {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 20 px;
+  width: 360 px;
+  font-size: 15px;
+  line-height: 19px;
+  float: left;
+  padding-top: 13 px;
+}
+
+.desktop-appExperience > p:first-child {
+  font-weight: 700;
+  color: #282c3f;
+  margin: -3 px 0 0;
+  padding: 0 0 25 px;
+}
+
+.desktop-gInfoTitle,
+.desktop-or {
+  font-size: 12px;
+}
+
+.desktop-downLinkContainer {
+  display: inline-block;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+
+.desktop-keepInTouch {
+  font-size: 12px;
+  margin-bottom: 10 px;
+  font-weight: 700;
+  margin-top: 20 px;
+}
+
+.desktop-facebook,
+.desktop-instagram,
+.desktop-twitter,
+.desktop-youtube {
+  margin: 0 15 px 0 0;
+  display: inline-block;
+}
+
+.desktop-promises {
+  width: 250 px;
+  float: left;
+  margin-left: 100px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.desktop-popularSearch hr {
+  border: 1 px;
+  height: 1 px;
+  background-color: #eaeaec;
+}
+
+.desktop-pSearchTitle {
+  position: absolute;
+  margin-top: -15 px;
+  background: #fafbfc;
+  padding-right: 10 px;
+  color: #282c3f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.desktop-pSearchlinks {
+  margin-top: 30 px;
+}
+
+.desktop-fInfoSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 40 px;
+}
+
+.desktop-pSearchlinks > a {
+  text-decoration: none;
+  color: #696b79;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.desktop-contact {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #696b79;
+}
+
+.desktop-contact > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #526cd0;
+}
+
+.desktop-copywrite {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #94969f;
+  text-align: end;
+}
+
+address {
+  display: block;
+  font-style: italic;
+}
+
+.index-lcContainer {
+  margin: 30 px 0;
+  padding: 20 px 0 0;
+  border-top: 1 px solid #eaeaec;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.index-lcHeader {
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.index-lcInfoContainer {
+  margin-top: 10 px;
+  display: inline-block;
+  width: 100%;
+}
+
+.index-lcAddress {
+  width: 70%;
+  display: inline-block;
+}
+.index-lcAddress {
+  color: #94969f;
+}
+
+.index-lcLegalInfo {
+  width: 30%;
+  display: inline-block;
+  color: #94969f;
+}
+
+.index-lcLegalInfo p {
+  margin: 0;
+}
+
+.index-highlightText {
+  color: #526cd0;
+  font-weight: 700;
+}
+
+.desktop-gyanContainer {
+  line-height: 18px;
+  color: #94969f;
+  font-size: 14px;
+  border-top: 1 px solid #eaeaec;
+  margin: 15 px 0 0;
+}
+
+.desktop-gyanContainer h1,
+h2,
+h3 {
+  margin-bottom: -10 px;
+  margin-top: 30 px;
+}
+
+.desktop-gyanContainer a {
+  color: #696b79;
+}
+
+strong {
+  color: #282c3f;
+  font-weight: 700;
+}
+
+.desktop-gyanContainer strong {
+  color: #535766 !important;
+}
+
+.desktop-gyanContainer li {
+  list-style-type: decimal;
+  margin: 1 em 0;
+}
+
+#footer{
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-right:  100px;
+  text-align:justify;
+}
