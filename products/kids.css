@@ -418,11 +418,20 @@
     border: solid red 2px;
     margin-top: 10px;
   }
-  .filterSection {
-    border: black solid 2px;
-    background-color: green;
+  #sortby{
+    width: 200px;
+    height: 30px;
   }
-
+  .btn{
+    height: 30px;
+    width: 100%;
+    margin-top: 7px;
+    background-color: white;
+    border: solid rgb(214, 213, 213) 0.5px;
+  }
+  .btn:hover{
+    border: solid rgb(30, 30, 30) 1px;
+  }
   #displaySection>div{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -432,4 +441,10 @@
   }
   #displaySection img {
     width: 100%;
+  }
+  #brand{
+    margin:40px ;
+  }
+  #pricerange{
+    margin: 40px;
   }
