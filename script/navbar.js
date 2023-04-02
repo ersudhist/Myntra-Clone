@@ -126,7 +126,7 @@ function navbar() {
                   <section>
                     <h2 class="item-2-heading">Indian & Fusion Wear</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/product.html">Kurtas & Suits</a></li>
+                      <li><a href="../HTML/ProductWomen.html">Kurtas & Suits</a></li>
                       <li><a href="#">Kurtis,Tunics & Tops</a></li>
                       <li><a href="#">Ethinc Wear</a></li>
                       <li><a href="#">Leggings,Salwars & Churidars</a></li>
@@ -626,8 +626,8 @@ function navbar() {
             <button class="btn-redirect"> <a href="../HTML/LoginFirstPage.html" class="login-btn">LOGIN / SIGNUP</a> </button>
             
             <hr class="hr1">
-            <a href="../HTML/cart.html">Orders</a>
-            <a href="../HTML/wishlisht-s.html">Wishlist</a>
+            <a href="../cart.html">Orders</a>
+            <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html">Wishlist</a>
             <a href="#">Gift Cards</a>
             <a href="#">Contact Us</a>
             <a href="#">Myntra Insider <span class="new">New</span></a>
@@ -642,13 +642,13 @@ function navbar() {
       </div>
       
       <div>
-        <a href="../HTML/wishlisht-s"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
+        <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
       
         <div>Wishlist</div>
       </div>
       
       <div>
-        <a href="../HTML/cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
+        <a href="../cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
       
         <div>Bag</div>
         <span id = "cart-count-info">0</span>
