@@ -206,7 +206,5 @@ if(sortby.value=="lowtohigh"){
   })
 
 }
-
-
 })
   
