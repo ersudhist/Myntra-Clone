@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/address.css">
+</head>
+<body>
+    <nav>
+        <div>
+           <div>
+            <img src="../images/logo3.png" alt="logo" id="logo">
+           </div>
+           <div class="steps">
+            <p class="payment_steps"><a href="../HTML/cart.html">BAG</a></p>
+            <span> ---------- </span>
+            <p class="payment_steps"><a href="../HTML/address.html">ADDRESS</a></p>
+            <span> ---------- </span>
+            <p class="payment_steps"><a href="../HTML/payment.html">PAYMENT</a></p>
+           </div>
+           <div class="secure">
+               <img src="../images/sprite-secure.png" alt="img"><span> 100 %  SECURE</span>
+           </div>
+        </div>
+       </nav>
+       
+       <div id="container">
+         
+        <form>
+            <h4>ADD NEW ADDRESS</h4>
+            <hr>
+            <p>CONTACT DETAILS</p>
+            <input type="text" placeholder="Name*" id="name">
+            <input type="number" placeholder="Mobile No*" id="mobile">
+            <p>ADDRESS</p>
+            <input type="text" placeholder="Pin Code*" id="pincode">
+            <input type="text" placeholder="Address (House No Building,Street,Area)*" id="area">
+            <input type="text" placeholder="Locality / Town*" id="town">
+            <div>
+                <input type="text" placeholder="City / District*" id="city">
+                <input type="text" placeholder="State*" id="state">
+            </div>
+            <button>ADD ADDRESS</button>
+           </form>
+        <div id="address">
+               <h3>ALL ADDRESS</h3>
+               <div id="all_address">
+                  
+               </div>
+        </div>
+ 
+        <div id="price">
+         <p class="heading">DELIVERY ESTIMATES</p>
+             <div id="estimate">
+                 <img src="../images/shipping1.png" alt="coupon">
+                 <p>ESTIMATE delivery by</p><span></span>
+             </div>
+         <div id="price_details">
+           <p class="heading">PRICE DETAILS OF ITEMS</p>
+             <div>
+                 <p>Total MRP</p>
+                 <h3>₹<span id="sub_total">0</span></h3>
+             </div>
+           <div>
+             <p>Convenience Fee</p>
+             <h3>₹<span id="shipping_fee">0</span></h3>
+           </div>
+           <hr>
+           <div>
+             <h4 class="inline">Total Amount</h4>
+             <h4>₹<span id="cart_total">0</span></h4>
+           </div>
+           <button id="placeorder">CONTINUE</button>
+         </div>
+        </div>
+ 
+        </div>
+        </div>
+   
+       <footer>
+           <div>
+               <div class="paymentopt">
+                   <img src="../images/lock.png" alt="image">
+                   <img src="../images/bank-visa.png" alt="image">
+                   <img src="../images/bank-mc.png" alt="image">
+                   <img src="../images/bank-ae.png" alt="image">
+                   <img src="../images/bank-dc.png" alt="image">
+                   <img src="../images/bank-nb.png" alt="image">
+                   <img src="../images/bank-cod.png" alt="image">
+                   <img src="../images/bank-rupay.png" alt="image">
+                   <img src="../images/bank-paypal.png" alt="image">
+                   <img src="../images/bank-bhim.png" alt="image">
+               </div>
+               <a href="#">
+                   <span>Need Help ? Contact Us</span>
+               </a>
+           </div>
+          
+       </footer>
+</body>
+</html>
+<script src="../scripts/address.js"></script>

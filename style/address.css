@@ -1,0 +1,145 @@
+nav{
+    padding: 12px;
+    border-bottom: 1px solid rgb(213, 210, 210);
+    margin: auto;
+}
+nav>div{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.steps{
+    display: flex;
+    align-items: center;
+}
+.steps>p{
+    font-size: 13px;
+    font-weight: 550;
+    color: rgb(96, 93, 93);
+}
+.steps>span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.secure{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.secure>img{
+    height: 30px;
+}
+.paymentopt>img{
+   height: 40px;
+   width: 70px;
+}
+footer{
+    border-top: 1px solid rgb(213, 210, 210);
+    padding-top: 12px
+}
+footer>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>div>a{
+    color: black;
+    font-weight: 600;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+#address{
+    width: 70%;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+#price{
+    width: 34%;
+}
+#estimate{
+    display: flex;
+    align-items: center;
+}
+#price{
+    border-left: 1px solid rgb(213, 210, 210);
+    padding-left: 12px;
+}
+#placeorder{
+    width: 100%;
+    background-color: rgb(229, 63, 51);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    padding: 12px 0;
+}
+#price_details>div{
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+    justify-content: space-between;
+}
+#estimate>img{
+    height: 30px;
+}
+form{
+    width: 50%;
+    border: 1px solid rgb(213, 210, 210);
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 15px;
+    float: right;
+}
+form>input{
+    width: 95%;
+    padding: 7px 2px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    border: 1px solid rgb(213, 210, 210);
+}
+form>div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+form>div>input{
+    width: 45%;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    padding: 7px 2px;
+    border-radius: 3px;
+    border: 1px solid rgb(213, 210, 210);
+    background-color: rgb(192, 185, 185);
+}
+form>button{
+    width: 97%;
+    padding: 10px 3px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+#all_address>div{
+    border-radius: 3px;
+    margin-top: 18px;
+    padding: 5px;
+    padding-left: 18px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#all_address>div>div{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
