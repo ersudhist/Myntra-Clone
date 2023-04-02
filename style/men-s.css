@@ -412,17 +412,21 @@
     display: flex;
     justify-content: space-between;
   }
+  h4{
+    margin-left: 40px;
+    margin-top: 40px;
+  }
   .body-s{
     display: grid;
     grid-template-columns:1fr 5fr;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     margin-top: 10px;
   }
-  #sortby{
+   #sortby{
     width: 200px;
     height: 30px;
   }
-  .btn{
+.btn{
     height: 30px;
     width: 100%;
     margin-top: 7px;
@@ -448,3 +452,14 @@
   #pricerange{
     margin: 40px;
   }
+  #Pagination{
+    margin-left: 53%;
+    margin-bottom: 10px;
+}
+#Pagination>button{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  padding: 3px;
+  background-color: white;
+}

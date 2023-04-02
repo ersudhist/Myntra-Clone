@@ -1,6 +1,7 @@
 let productContainer=document.getElementById("displaySection");
 let filterContainer=document.getElementById("filterSection")
 let sortby=document.getElementById("sortby")
+let Paginate=document.getElementById("Pagination")
 let CART= JSON.parse(localStorage.getItem("Cart")) ||[];
 let WISH=JSON.parse(localStorage.getItem("wishlist"))||[];
 
@@ -8,10 +9,17 @@ window.addEventListener("load",()=>{
     fetchedData();
   })
 //   fetchedData();
-  function fetchedData(){
-    fetch(`https://mockapi-7431.onrender.com/products?category=Kids`)
+  function fetchedData(page){
+    fetch(`https://mockapi-7431.onrender.com/products?category=Kids&_limit=10&_page=${page}`)
     
      .then((res)=>{
+      let total=res.headers.get("X-Total-Count")
+      let ButtonNumber=Math.ceil(total/10)
+      Paginate.innerHTML=null;
+      for(let i=1;i<=ButtonNumber;i++){
+      let displaybtn=getAsButton(i,i)
+      Paginate.append(displaybtn)
+  }
       return res.json();
      })
     
@@ -107,7 +115,7 @@ window.addEventListener("load",()=>{
   
               function fetchedData(ele){
                   console.log(ele.value)
-                  fetch(`https://mockapi-7431.onrender.com/products?brand=${ele.value}`)
+                  fetch(`https://mockapi-7431.onrender.com/products?brand=${ele.value}&category=Kids`)
                   
                    .then((res)=>{
                     return res.json();
@@ -144,30 +152,21 @@ window.addEventListener("load",()=>{
         
         function fetchedData(element){
           console.log(element.value)
-          fetch(`https://mockapi-7431.onrender.com/products?category=Women`)
+          fetch(`https://mockapi-7431.onrender.com/products?price_lte=${element.value}&category=Kids`)
           
            .then((res)=>{
             return res.json();
            })
           
            .then((data)=>{
-              console.log(element)
-              console.log(data)
-              let data1=data.filter((ele)=>{
-                  if(element.value===ele.price)
-                  return true
-                  else 
-                  return false
-             });
-             console.log(data1)
-              
-             let cardlist= getCardList(data1)
+            console.log(data);
              
-             productContainer.innerHTML=null;
-             productContainer.append(cardlist)
-           
-           })
-          }
+            let cardlist= getCardList(data)
+            productContainer.innerHTML=null;
+            productContainer.append(cardlist)
+          
+          })
+         }
           
           fetchedData(element)
   
@@ -209,3 +208,18 @@ window.addEventListener("load",()=>{
       
     
     })
+      // <----------------------------------------Pagination-------------------------------------------------------------->
+   function getAsButton(text,dataId){
+    let Paginationbtn=document.createElement("button")
+    Paginationbtn.setAttribute("data-id",dataId);
+    Paginationbtn.classList.add("pagination-button")
+    Paginationbtn.setAttribute("data-page-number",dataId)
+    Paginationbtn.innerText=text;
+    Paginationbtn.addEventListener("click",(e)=>{
+      fetchedData(e.target.dataset.id)
+      console.log(e.target.dataset.id)
+      Paginationbtn.style.backgroundColor="black"
+      Paginationbtn.style.color="white"
+    })
+    return Paginationbtn;
+  }

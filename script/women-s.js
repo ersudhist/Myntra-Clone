@@ -1,20 +1,28 @@
+import { navbar } from "../script/navbar.js";
+
+let header = document.getElementById("Home-headerEl");
+header.innerHTML = navbar();
+
 let productContainer=document.getElementById("displaySection");
 let filterContainer=document.getElementById("filterSection")
 let sortby=document.getElementById("sortby")
 let Paginate=document.getElementById("Pagination")
-let CART= JSON.parse(localStorage.getItem("Cart")) ||[];
+let bagtotal=document.getElementById("cart-count-info");
+let CART= JSON.parse(localStorage.getItem("cartdata")) ||[];
 let WISH=JSON.parse(localStorage.getItem("wishlist"))||[];
+
+
 
 window.addEventListener("load",()=>{
     fetchedData();
   })
 //   fetchedData();
   function fetchedData(page){
-    fetch(`https://mockapi-7431.onrender.com/products?category=Women&_limit=15&_page=${page}`)
+    fetch(`https://mockapi-7431.onrender.com/products?category=Women&_limit=10&_page=${page}`)
     
      .then((res)=>{
       let total=res.headers.get("X-Total-Count")
-      let ButtonNumber=Math.ceil(total/15)
+      let ButtonNumber=Math.ceil(total/10)
       Paginate.innerHTML=null;
       for(let i=1;i<=ButtonNumber;i++){
       let displaybtn=getAsButton(i,i)
@@ -29,6 +37,8 @@ window.addEventListener("load",()=>{
        let cardlist= getCardList(data)
        productContainer.innerHTML=null;
        productContainer.append(cardlist)
+      //  page.append(Paginate)
+      //  productContainer.append(Paginate)
      
      })
     } 
@@ -72,24 +82,39 @@ window.addEventListener("load",()=>{
             
             let btn=document.createElement("button");
             btn.classList.add("btn")
-            btn.innerText="Add to WISHLIST";
+            btn.classList.add('fa','fa-heart')
             btn.addEventListener("click",()=>{
                
                     WISH.push((element))
                     console.log(WISH)
                     localStorage.setItem("wishlist",JSON.stringify(WISH))
                     alert("product added to Wishlist")
+                    bagtotal.innerText=WISH.length;
                 
             })
+
+            let btn1=document.createElement("button")
+            btn1.classList.add("cartbtn");
+            btn1.innerText="Add to CART";
+            btn1.addEventListener("click",()=>{
+               
+              CART.push((element))
+              console.log(CART)
+              localStorage.setItem("cartdata",JSON.stringify(CART))
+              alert("product added to Cart")
+              bagtotal.innerText=CART.length;
           
+           })
+
             let Id=document.createElement("div")
             Id.setAttribute("data-id",id)
           
             card.append(imageDiv)
-            cardbody.append(Brand)
-            cardbody.append(About)
-            cardbody.append(Price)
-            cardbody.append(btn)
+            cardbody.append(Brand,About,Price,btn,btn1)
+            // cardbody.append(About)
+            // cardbody.append(Price)
+            // cardbody.append(btn)
+            // cardbody.append(btn1)
             card.append(cardbody)
           
              return card;
@@ -221,6 +246,8 @@ sortby.addEventListener("change",()=>{
     Paginationbtn.addEventListener("click",(e)=>{
       fetchedData(e.target.dataset.id)
       console.log(e.target.dataset.id)
+      Paginationbtn.style.backgroundColor="black"
+      Paginationbtn.style.color="white"
     })
     return Paginationbtn;
   }

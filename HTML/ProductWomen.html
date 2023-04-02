@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../style/women-s.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <!----------------------------------------Navbar Start ---------------------------------------------- -->
+
+    <header id="Home-headerEl"></header>
+
+      <div class="navproduct-s">
+        <a href="#">Home /</a>
+        <a href="./ProductWomen.html">Women Clothing</a>
+      </div>
+      <br>
+      <div class="filter-s">
+        
+        <select id="sortby">
+            <option value="">Sort By Price</option>
+            <option value="lowtohigh">Price:Low to High</option>
+            <option value="hightolow">Price:High to Low</option>
+        </select>
+      </div>
+      <div class="body-s">
+        
+        <div id="filterSection">
+          <h4>FILTERS</h4>
+            <div id="brand">
+                <h5>BRAND</h5>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="W"> W<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Aunok"> Aunok<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Rangriti"> Rangriti<br>
+                <br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Ethnic"> Ethnic<br>
+            </div>
+            <div id="pricerange">
+                <h5>PRICE</h5>
+                <br>
+                <input type="checkbox" name="myCheckbox"  class="pricevalue" value="1000" >Less than Rs. 1000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox"  class="pricevalue" value="2000">Less than Rs. 2000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox"  class="pricevalue" value="3000">Less than Rs. 3000<br>
+                <br>
+                <input type="checkbox" name="myCheckbox"  class="pricevalue" value="4000">Less than Rs. 4000<br>
+            </div>
+            
+        </div>
+        <div id="displaySection"></div>
+        <!-- <div class="page"><div id="Pagination"></div></div> -->
+        
+      </div>
+      <div id="Pagination"></div>
+</body>
+<script src="../script/women-s.js"type="module"></script>
+</html>

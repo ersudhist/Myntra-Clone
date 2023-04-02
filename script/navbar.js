@@ -14,7 +14,7 @@ function navbar() {
                     <h2 class="item-1-heading">Topwear</h2>
                     <ul class="mega-links">
                       <li><a href="../HTML/product.html">T-Shirts</a></li>
-                      <li><a href="#">Casual Shirts</a></li>
+                      <li><a href="../HTML/ProductMen.html">Casual Shirts</a></li>
                       <li><a href="#">Formal Shirts</a></li>
                       <li><a href="#">SweatShirts</a></li>
                       <li><a href="#">Sweaters</a></li>
@@ -126,7 +126,7 @@ function navbar() {
                   <section>
                     <h2 class="item-2-heading">Indian & Fusion Wear</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/product.html">Kurtas & Suits</a></li>
+                      <li><a href="../HTML/ProductWomen.html">Kurtas & Suits</a></li>
                       <li><a href="#">Kurtis,Tunics & Tops</a></li>
                       <li><a href="#">Ethinc Wear</a></li>
                       <li><a href="#">Leggings,Salwars & Churidars</a></li>
@@ -240,7 +240,7 @@ function navbar() {
                   <section>
                     <h2 class="item-3-heading">Boys Clothing</h2>
                     <ul class="mega-links">
-                      <li><a href="#">T-Shirts</a></li>
+                      <li><a href="../HTML/ProductKids.html">T-Shirts</a></li>
                       <li><a href="#">Shirts</a></li>
                       <li><a href="#">Shorts</a></li>
                       <li><a href="#">Jeans</a></li>
@@ -627,7 +627,7 @@ function navbar() {
             
             <hr class="hr1">
             <a href="../HTML/cart.html">Orders</a>
-            <a href="../HTML/wishlist.html">Wishlist</a>
+            <a href="../HTML/wishlisht-s.html">Wishlist</a>
             <a href="#">Gift Cards</a>
             <a href="#">Contact Us</a>
             <a href="#">Myntra Insider <span class="new">New</span></a>
@@ -642,7 +642,7 @@ function navbar() {
       </div>
       
       <div>
-        <a href="../HTML/wishlist.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
+        <a href="../HTML/wishlisht-s"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
       
         <div>Wishlist</div>
       </div>
