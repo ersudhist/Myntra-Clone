@@ -240,7 +240,7 @@ function navbar() {
                   <section>
                     <h2 class="item-3-heading">Boys Clothing</h2>
                     <ul class="mega-links">
-                      <li><a href="#">T-Shirts</a></li>
+                      <li><a href="../HTML/ProductKids.html">T-Shirts</a></li>
                       <li><a href="#">Shirts</a></li>
                       <li><a href="#">Shorts</a></li>
                       <li><a href="#">Jeans</a></li>

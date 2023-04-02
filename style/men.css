@@ -426,16 +426,7 @@
     width: 200px;
     height: 30px;
   }
-.btn{
-    height: 30px;
-    width: 100%;
-    margin-top: 7px;
-    background-color: white;
-    border: solid rgb(214, 213, 213) 0.5px;
-  }
-  .btn:hover{
-    border: solid rgb(30, 30, 30) 1px;
-  }
+
   #displaySection>div{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -462,4 +453,22 @@
   margin-left: 5px;
   padding: 3px;
   background-color: white;
+}
+.cartbtn1{
+  height: 25px;
+  width: 80%;
+  margin-top: 7px;
+  background-color: white;
+  border: solid rgb(214, 213, 213) 0.5px;
+  margin-left: 20px;
+}
+.btn1{
+  font-size: larger;
+  border: none;
+  color: rgb(226, 68, 68);
+  background-color: white;
+}
+
+.cartbtn1:hover{
+  border: solid rgb(30, 30, 30) 1px;
 }

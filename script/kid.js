@@ -71,26 +71,40 @@ window.addEventListener("load",()=>{
             Price.innerText=`Rs. ${price}`;
             
             let btn=document.createElement("button");
-            btn.classList.add("btn")
-            btn.innerText="Add to WISHLIST";
+            btn.classList.add("btn2")
+            btn.classList.add('fa','fa-heart')
             btn.addEventListener("click",()=>{
                
                     WISH.push((element))
                     console.log(WISH)
                     localStorage.setItem("wishlist",JSON.stringify(WISH))
                     alert("product added to Wishlist")
+                    bagtotal.innerText=WISH.length;
                 
             })
+
+            let btn1=document.createElement("button")
+            btn1.classList.add("cartbtn");
+            btn1.innerText="Add to CART";
+            btn1.addEventListener("click",()=>{
+               
+              CART.push((element))
+              console.log(CART)
+              localStorage.setItem("cartdata",JSON.stringify(CART))
+              alert("product added to Cart")
+              bagtotal.innerText=CART.length;
           
+           })
           
             let Id=document.createElement("div")
             Id.setAttribute("data-id",id)
           
             card.append(imageDiv)
-            cardbody.append(Brand)
-            cardbody.append(About)
-            cardbody.append(Price)
-            cardbody.append(btn)
+            cardbody.append(Brand,About,Price,btn,btn1)
+            // cardbody.append(About)
+            // cardbody.append(Price)
+            // cardbody.append(btn)
+            // cardbody.append(btn1)
             card.append(cardbody)
           
              return card;

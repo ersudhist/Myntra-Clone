@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../style/men-s.css" rel="stylesheet" />
+    <link href="../style/men.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
@@ -17,15 +18,15 @@
 
         <ul class="menu-items">
           <li>
-            <a href="../HTML/mens.html" class="menu-item-1">MEN</a>
+            <a href="../HTML/product.html" class="menu-item-1">MEN</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
                   <section>
                     <h2 class="item-1-heading">Topwear</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/ProductMen.html">T-Shirts</a></li>
-                      <li><a href="../HTML/ProductMen.html">Casual Shirts</a></li>
+                      <li><a href="../HTML/product.html">T-Shirts</a></li>
+                      <li><a href="#">Casual Shirts</a></li>
                       <li><a href="#">Formal Shirts</a></li>
                       <li><a href="#">SweatShirts</a></li>
                       <li><a href="#">Sweaters</a></li>
@@ -129,14 +130,14 @@
           </li>
 
           <li>
-            <a href="../HTML/women.html" class="menu-item-2">WOMEN</a>
+            <a href="../HTML/product.html" class="menu-item-2">WOMEN</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
                   <section>
                     <h2 class="item-2-heading">Indian & Fusion Wear</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/ProductWomen.html">Kurtas & Suits</a></li>
+                      <li><a href="../HTML/product.html">Kurtas & Suits</a></li>
                       <li><a href="#">Kurtis,Tunics & Tops</a></li>
                       <li><a href="#">Ethinc Wear</a></li>
                       <li><a href="#">Leggings,Salwars & Churidars</a></li>
@@ -243,14 +244,14 @@
           </li>
 
           <li>
-            <a href="../HTML/kids.html" class="menu-item-3">KIDS</a>
+            <a href="../HTML/product.html" class="menu-item-3">KIDS</a>
             <div class="mega-menu">
               <div class="content">
                 <div class="col">
                   <section>
                     <h2 class="item-3-heading">Boys Clothing</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/ProductKids.html">T-Shirts</a></li>
+                      <li><a href="#">T-Shirts</a></li>
                       <li><a href="#">Shirts</a></li>
                       <li><a href="#">Shorts</a></li>
                       <li><a href="#">Jeans</a></li>
@@ -633,11 +634,11 @@
           <div class="dropdown-content">
             <h3>Welcome</h3>
             <p>To access account and mange orders</p>
-            <button class="btn-redirect"> <a href="../HTML/LoginFirstPage.html" class="login-btn">LOGIN / SIGNUP</a> </button>
+            <button class="btn-redirect"> <a href="../HTML/Registration.html" class="login-btn">LOGIN / SIGNUP</a> </button>
             
             <hr class="hr1">
-            <a href="../cart.html">Orders</a>
-            <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html">Wishlist</a>
+            <a href="../HTML/cart.html">Orders</a>
+            <a href="../HTML/wishlist.html">Wishlist</a>
             <a href="#">Gift Cards</a>
             <a href="#">Contact Us</a>
             <a href="#">Myntra Insider <span class="new">New</span></a>
@@ -652,13 +653,13 @@
       </div>
       
       <div>
-        <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
+        <a href="../HTML/wishlist.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
       
         <div>Wishlist</div>
       </div>
       
       <div>
-        <a href="../cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
+        <a href="../HTML/cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
       
         <div>Bag</div>
         <span id = "cart-count-info">0</span>
@@ -672,7 +673,7 @@
       </div>
       <br>
       <div class="filter-s">
-        <h4>FILTERS</h4>
+        
         <select id="sortby">
             <option value="">Sort By Price</option>
             <option value="lowtohigh">Price:Low to High</option>
@@ -681,32 +682,34 @@
       </div>
       <div class="body-s">
         <div class="filterSection">
+          <h4>FILTERS</h4>
             <div id="brand">
                 <h5>BRAND</h5>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" value="W"> W<br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Roadster"> Roadster<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" value="Aunok"> Aunok<br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="HIGHLANDER"> HIGHLANDER<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" value="Rangriti"> Rangriti<br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="Levis"> Levis<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" value="Ethnic"> Ethnic<br>
+                <input type="checkbox" name="myCheckbox" class="brand" value="SPYKAR"> SPYKAR<br>
             </div>
             <div id="pricerange">
                 <h5>PRICE</h5>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value=999 >Less than Rs. 1000<br>
+                <input type="checkbox" name="myCheckbox" class="pricevalue" value="1000" >Less than Rs. 1000<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="2000">Less than Rs. 2000<br>
+                <input type="checkbox" name="myCheckbox" class="pricevalue" value="2000">Less than Rs. 2000<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="3000">Less than Rs. 3000<br>
+                <input type="checkbox" name="myCheckbox" class="pricevalue" value="3000">Less than Rs. 3000<br>
                 <br>
-                <input type="checkbox" name="myCheckbox" class="brand" class="pricevalue" value="4000">Less than Rs. 4000<br>
+                <input type="checkbox" name="myCheckbox" class="pricevalue" value="4000">Less than Rs. 4000<br>
             </div>
               
         </div>
         <div id="displaySection"></div>
       </div>
+      <div id="Pagination"></div>
 </body>
 <script src="../script/men.js"></script>
 </html>

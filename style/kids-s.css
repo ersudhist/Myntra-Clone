@@ -463,3 +463,21 @@
   padding: 3px;
   background-color: white;
 }
+.cartbtn{
+  height: 25px;
+  width: 80%;
+  margin-top: 7px;
+  background-color: white;
+  border: solid rgb(214, 213, 213) 0.5px;
+  margin-left: 20px;
+}
+.btn2{
+  font-size: larger;
+  border: none;
+  color: rgb(226, 68, 68);
+  background-color: white;
+}
+
+.cartbtn:hover{
+  border: solid rgb(30, 30, 30) 1px;
+}
