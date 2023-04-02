@@ -63,6 +63,14 @@ body {
     font-weight: bold;
   }
 
+  .admin_login{
+    color: #ff3e6c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+
 /* ------------------------------------------------------------------------------------------------------- */
 
 
