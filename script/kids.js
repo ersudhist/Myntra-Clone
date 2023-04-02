@@ -12,6 +12,6 @@ setInterval(function () {
     }
   }, 5000);
 
-const cartCountInfo = document.getElementById("cart-count-info");
-let count = JSON.parse(localStorage.getItem("cart"));
-cartCountInfo.textContent = count.length;
+// const cartCountInfo = document.getElementById("cart-count-info");
+// let count = JSON.parse(localStorage.getItem("cart"));
+// cartCountInfo.textContent = count.length;
