@@ -3,6 +3,14 @@ Myntra is one of the largest fashion e-commerce stores in India that deals with 
 
 A Collaborative project built by a team of 4 members executed in 5 days.
 
+# Netlify link
+
+https://tangerine-gaufre-bc743e.netlify.app/
+
+# JSON Server
+
+https://mockapi-7431.onrender.com/
+
 # Tech Stack 💻
 
 HTML5
@@ -76,13 +84,13 @@ Cart Page
 ![cartPage](https://user-images.githubusercontent.com/121331538/229418648-6a50aaa6-53e8-4c20-9a87-b3243f1fb9c6.png)
 
 # Contributors 😇
-👤 Shriya Pandey
+👤 Shriya Pandey (fw24_382)
 
-👤 Vishal Chaudhary
+👤 Vishal Chaudhary (fw21_0605)
 
-👤 Sheikh Tahir
+👤 Sheikh Tahir (	fp10_100)
 
-👤 Sudhist Kumar
+👤 Sudhist Kumar (fw25_214)
 
 
 
