@@ -39,3 +39,4 @@ setInterval(function () {
   // <link rel="stylesheet" href="../style/home.css">
   //   <link rel="stylesheet" href="../HTML/index.html">
   //   <link rel="stylesheet" href="../style/navbar.css"></link>
+// done

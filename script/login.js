@@ -16,5 +16,5 @@ function validatePhoneNo(id) {
        window.location.href = './LoginOTP.html'; 
     }
 }
-
+// done
 
