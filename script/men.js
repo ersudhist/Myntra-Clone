@@ -1,3 +1,10 @@
+import { navbar } from "../script/navbar.js";
+
+let header = document.getElementById("Home-headerEl");
+header.innerHTML = navbar();
+
+
+
 let productContainer=document.getElementById("displaySection");
 let filterContainer=document.getElementById("filterSection")
 let sortby=document.getElementById("sortby")
@@ -24,7 +31,7 @@ window.addEventListener("load",()=>{
      })
     
      .then((data)=>{
-       console.log(data);
+      console.log(data);
         
        let cardlist= getCardList(data)
        productContainer.innerHTML=null;
@@ -87,7 +94,6 @@ window.addEventListener("load",()=>{
             btn1.classList.add("cartbtn1");
             btn1.innerText="Add to CART";
             btn1.addEventListener("click",()=>{
-               
               CART.push((element))
               console.log(CART)
               localStorage.setItem("cartdata",JSON.stringify(CART))
@@ -236,3 +242,12 @@ if(sortby.value=="lowtohigh"){
     return Paginationbtn;
   }
   
+//checking duplicate
+  function checkduplicate(element){
+    for(let i=0;i<cartArr.length;i++){
+      if(cartArr[i].id===element.id){
+        return true;
+      }
+    }
+    return false;
+ }

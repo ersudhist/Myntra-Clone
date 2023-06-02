@@ -69,16 +69,18 @@ showprice();
  function showprice(){
     let sum=0;
     for(let i=0;i<cartArr.length;i++){
-     sum+=cartArr[i].price*cartArr[i].quantity;
+     sum+=cartArr[i].price;
     }
     subtotal.innerText =0;
  
      let alltotal=0;
     if(sum>=500){
      shippingfee.innerText = 0;
+     subtotal.innerText=sum;
      alltotal=sum;
      carttotal.innerText = sum;
     }else if(sum<500){
+     subtotal.innerText=sum;
      carttotal.innerText = (sum+40);
      alltotal=(sum+40);
      shippingfee.innerText = 40;

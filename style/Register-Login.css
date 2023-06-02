@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  body {
+    margin-top: 100px;
+    font-family: "Whitney", -apple-system, "BlinkMacSystemFont", "Segoe UI",
+      "Roboto", Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdefe9;
+  }
+  .header {
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 80px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header a {
+    text-decoration: none;
+    color: black;
+  }
+  .header a img {
+    width: 65px;
+    height: 60px;
+  }
+  .header ul {
+    list-style: none;
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  .menu-items li {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background 0.3s ease-in-out;
+  }
+  .menu-items .menu-item-1:hover {
+    border-bottom: 3px solid #ee5f73;
+    padding-bottom: 27px;
+  }
+  .menu-items .menu-item-2:hover {
+    border-bottom: 3px solid #fb56c1;
+    padding-bottom: 27px;
+  }
+  .menu-items .menu-item-3:hover {
+    border-bottom: 3px solid #f26a10;
+    padding-bottom: 27px;
+  }
+  .menu-items .menu-item-4:hover {
+    border-bottom: 3px solid #f2c210;
+    padding-bottom: 27px;
+  }
+  .menu-items .menu-item-5:hover {
+    border-bottom: 3px solid #0db7af;
+    padding-bottom: 27px;
+  }
+  .menu-items .menu-item-6:hover {
+    border-bottom: 3px solid #ff3f6c;
+    padding-bottom: 27px;
+  }
+   
+ 
+  .menu-item-6 .sup-part {
+    color: red;
+    position: relative;
+    font-size: 9px;
+    font-weight: 900;
+    bottom: 8px;
+  }
+  
+ /*--------- ----------search----------------- */
+
+  .search-div {
+    position: relative;
+    left: 40px;
+    display: flex;
+    width: 28%;
+    background-color: #f5f5f6;
+    height: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 3px;
+  }
+  
+  .search-div i {
+    width: 15px;
+    margin: 15px;
+    opacity: 0.6;
+  }
+  .search-div input {
+    width: 70%;
+    border: none;
+    margin-left: 2%;
+    background-color: #f5f5f6;
+    outline: none;
+    font-size: 12px;
+  }
+
+  .nav-last {
+    padding: 0 12px 0 17px;
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+    height: 40px;
+  }
+  .nav-last > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 15px;
+  }
+   
+  /* -------------------whishlist----------------- */
+  #svg {
+    height: 17px !important;
+    margin-left: 0px;
+  }
+
+  
+
+
+
+
+  
+  
+  .container {
+    position: relative;
+    max-width: 430px;
+    height: 650px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+  }
+  
+  .container .forms {
+    display: flex;
+    align-items: center;
+    max-height: 400px;
+    width: 200%;
+    transition: height 0.2s ease;
+  }
+  
+  .container .form {
+    width: 50%;
+    padding: 10px 30px 0 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+  }
+  
+  .container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+  }
+  
+  .form .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #ff3f6c;
+    border-radius: 25px;
+  }
+  
+  .form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+  .input-field input:focus {
+    border-bottom-color: #ff3f6c;
+  }
+  
+  .input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+  }
+  
+  .input-field i.icon {
+    left: 0;
+  }
+  .input-field i.showHidePw {
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .form .checkbox-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-content input {
+    margin: 0 8px -2px 4px;
+    accent-color: #ff3f6c;
+  }
+  
+  .form .text {
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .form a.text {
+    color: #ff3f6c;
+    text-decoration: none;
+  }
+  .form a:hover {
+    text-decoration: underline;
+  }
+  
+  .form .button {
+    margin-top: 35px;
+  }
+  
+  .form .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #ff3f6c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+  }
+  

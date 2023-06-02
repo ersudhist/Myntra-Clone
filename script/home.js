@@ -12,9 +12,7 @@ setInterval(function () {
     }
   }, 5000);
 
-// const cartCountInfo = document.getElementById("cart-count-info");
-// let count = JSON.parse(localStorage.getItem("cart"));
-// cartCountInfo.textContent = count.length;
+
 
 
   const users = [
@@ -39,4 +37,3 @@ setInterval(function () {
   // <link rel="stylesheet" href="../style/home.css">
   //   <link rel="stylesheet" href="../HTML/index.html">
   //   <link rel="stylesheet" href="../style/navbar.css"></link>
-// done

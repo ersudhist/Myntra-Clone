@@ -1,3 +1,10 @@
+import { navbar } from "../script/navbar.js";
+
+let header = document.getElementById("Home-headerEl");
+header.innerHTML = navbar();
+
+
+
 let productContainer=document.getElementById("displaySection");
 let filterContainer=document.getElementById("filterSection")
 let sortby=document.getElementById("sortby")

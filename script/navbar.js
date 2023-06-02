@@ -1,7 +1,7 @@
 
 function navbar() {
     return `<header class="header">
-        <a style="margin-left: 30px;cursor:pointer;" href="../HTML/index.html" class="logo"><img src="../images/logo1.png" alt=""></a>
+        <a style="margin-left: 30px;cursor:pointer;" href="../index.html" class="logo"><img src="../images/logo1.png" alt=""></a>
       <nav>
 
         <ul class="menu-items">
@@ -13,8 +13,8 @@ function navbar() {
                   <section>
                     <h2 class="item-1-heading">Topwear</h2>
                     <ul class="mega-links">
-                      <li><a href="../HTML/ProductMen.html">T-Shirts</a></li>
-                      <li><a href="#">Casual Shirts</a></li>
+                      <li><a href="../HTML/ProductMen.html">Casual Shirts</a></li>
+                      <li><a href="#">T-Shirts</a></li>
                       <li><a href="#">Formal Shirts</a></li>
                       <li><a href="#">SweatShirts</a></li>
                       <li><a href="#">Sweaters</a></li>
@@ -623,11 +623,11 @@ function navbar() {
           <div class="dropdown-content">
             <h3>Welcome</h3>
             <p>To access account and mange orders</p>
-            <button class="btn-redirect"> <a href="../HTML/LoginFirstPage.html" class="login-btn">LOGIN / SIGNUP</a> </button>
+            <button class="btn-redirect"> <a href="../HTML/Registration.html" class="login-btn">LOGIN / SIGNUP</a> </button>
             
             <hr class="hr1">
             <a href="../cart.html">Orders</a>
-            <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html">Wishlist</a>
+            <a href="../HTML/wishlisht-s.html">Wishlist</a>
             <a href="#">Gift Cards</a>
             <a href="#">Contact Us</a>
             <a href="#">Myntra Insider <span class="new">New</span></a>
@@ -642,13 +642,12 @@ function navbar() {
       </div>
       
       <div>
-        <a href="http://127.0.0.1:5502/HTML/wishlisht-s.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
-      
+      <a href="../HTML/wishlisht-s.html"> <img id="svg"src="https://www.svgrepo.com/show/14970/heart.svg"alt=""/></a>
         <div>Wishlist</div>
       </div>
       
       <div>
-        <a href="../cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
+        <a href="../HTML/cart.html"> <img id="svg"src="https://www.svgrepo.com/show/17522/bag.svg"alt=""/></a>
       
         <div>Bag</div>
         <span id = "cart-count-info">0</span>

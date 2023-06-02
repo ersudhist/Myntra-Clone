@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="icon" href="../images/logo2.png" />
+    <link rel="stylesheet" href="../style/Register-Login.css" />
+    <title>Online Shopping - Register</title>
+  </head>
+  <body>
+
+    <!--------------------------- Start of NavBar ----------------------------->
+
+    <header class="header">
+        <a style="margin-left: 30px;cursor:pointer;" href="../index.html" class="logo"><img src="../images/logo1.png" alt=""></a>
+
+      <nav>
+        <ul class="menu-items">
+          <li>
+            <a href="../HTML/mens.html" class="menu-item-1">MEN</a>
+          </li>
+          <li>
+            <a href="../HTML/women.html" class="menu-item-2">WOMEN</a>
+          </li>
+          <li>
+            <a href="../HTML/kids.html" class="menu-item-3">KIDS</a>
+          </li>
+          <li>
+            <a href="../HTML/Home&living.html" class="menu-item-4">HOME & LIVING</a>
+          </li>
+          <li>
+            <a href="#" class="menu-item-5">BEAUTY</a>
+          </li>
+          <li>
+            <a href="#" class="menu-item-6">STUDIO<Span class="sup-part">NEW</Span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="search-div">
+        <i class="fa fa-light fa-magnifying-glass"></i>
+      
+        <input type="text" placeholder="Search for products, brands and more"/>
+      </div>
+      
+      <div class="nav-last">
+        <div>
+          <a href="">
+            <img
+              id="svg"
+              src="https://www.svgrepo.com/show/198180/user-profile.svg"
+              alt=""
+            />
+          </a>
+
+          <div>Profile</div>
+        </div>
+
+        <div>
+          <a href="">
+            <img
+              id="svg"
+              src="https://www.svgrepo.com/show/14970/heart.svg"
+              alt=""
+            />
+          </a>
+
+          <div>Wishlist</div>
+        </div>
+
+        <div>
+          <a href="">
+            <img
+              id="svg"
+              src="https://www.svgrepo.com/show/17522/bag.svg"
+              alt=""
+            />
+          </a>
+
+          <div>Bag</div>
+        </div>
+      </div>
+    </header>
+   
+     <!--------------------------- End Of NavBar ----------------------------->
+
+    <div class="container">
+      <img
+        width="100%"
+        height="200px"
+        class="login-top-image"
+        src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/2/7/59a76460-3a85-4d4b-b517-faef119c50551675792734635-offer-banner-200-600x240-code-_-MYNTRA200.jpg"
+        alt=""
+      />
+      <div class="forms">
+        <div class="form login">
+          <span class="title">Login</span>
+
+          <form>
+            <div class="input-field">
+              <input type="text" placeholder="Email" id="email" />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input type="password" id="password" placeholder="Password" />
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+
+              <a href="../HTML/Registration.html" class="text">Forgot password?</a>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Login" id="login_btn" />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text">Not a member?
+              <a href="../HTML/Registration.html" class="text">Register</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../script/Login.js"type="module"></script>
+  </body>
+</html>

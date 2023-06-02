@@ -82,8 +82,8 @@ showitem();
             return element.id!==ele.id;
         })
         localStorage.setItem("cartdata",JSON.stringify(Cart));
-        showcart();
         showitem();
+        showcart();
         })
 
        div.append(brand,about,category,price);
@@ -95,9 +95,11 @@ showitem();
     //calculate total price here
    let sum=0;
    for(let i=0;i<cartArr.length;i++){
-    sum+=cartArr[i].price*cartArr[i].quantity;
+    sum+=cartArr[i].price;
+    console.log(sum)
    }
-   subtotal.innerText = sum;
+   console.log(cartArr[0].price)
+   subtotal.innerText = +sum;
 
     let alltotal=0;
    if(sum>=500){

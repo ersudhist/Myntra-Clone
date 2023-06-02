@@ -16,5 +16,5 @@
 
         let home = document.getElementById("move");
         home.addEventListener("click",()=>{
-            window.location.href = "../HTML/index.html";
+            window.location.href = "../index.html";
         })

@@ -186,3 +186,20 @@ button{
 #price_details>div>h4{
     font-size: 18px;
 }
+
+#items>div{
+    width: 30%;
+    margin-bottom: 10px;
+    display: flex;
+}
+#items>div>img{
+  width: 80%;
+  margin-right: 15px;
+}
+#items>div>div{
+    margin-right: 15px;
+}
+#items>div>button{
+    border: none;
+    background-color: white;
+}
