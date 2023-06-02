@@ -77,7 +77,7 @@ Whislist Page
 
 Login Page
 
-![loginPage](https://user-images.githubusercontent.com/121331538/229406310-962b619e-7e8d-4622-8f7c-60740cafc3c9.png)
+![loginPage](https://github.com/ersudhist/-nauseating-fowl-3676/assets/121331538/2ce7b925-f943-4cbf-872c-e7345b05fe31)
 
 Cart Page
 
