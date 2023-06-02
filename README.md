@@ -5,7 +5,7 @@ A Collaborative project built by a team of 4 members executed in 5 days.
 
 # Netlify link
 
-https://tangerine-gaufre-bc743e.netlify.app/
+https://dashing-monstera-1cd591.netlify.app
 
 # JSON Server
 
