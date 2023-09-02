@@ -84,13 +84,13 @@ Cart Page
 ![cartPage](https://user-images.githubusercontent.com/121331538/229418648-6a50aaa6-53e8-4c20-9a87-b3243f1fb9c6.png)
 
 # Contributors 😇
-👤 Sudhist Kumar -Team lead([fw25_214](https://github.com/ersudhist)https://github.com/ersudhist)
+👤 Sudhist Kumar(Team Lead): https://github.com/ersudhist
 
-👤 Shriya Pandey ([fw24_382](https://github.com/pshriya01))
+👤 Shriya Pandey: https://github.com/pshriya01
 
-👤 Vishal Chaudhary ([fw21_0605](https://github.com/vishal-dev4))
+👤 Vishal Chaudhary: https://github.com/vishal-dev4
 
-👤 Sheikh Tahir ([fp10_100](https://github.com/SheikhTahir)https://github.com/SheikhTahir)
+👤 Sheikh Tahir: https://github.com/SheikhTahir
 
 
 
